@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer base {
+   p {
+      @apply font-serif
+   }
+}
+ 
+@layer components {
+   .header-link {
+      @apply text-xl text-green-600 font-serif
+   }
+}
+
