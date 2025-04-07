@@ -6,10 +6,10 @@
    <title>Project</title>
    <link rel="stylesheet" href="src/output.css">
 </head>
-<body>
+<body class="p-4 md:p-0">
 
-   <nav class="mb-[7em]">
-      <ul class="flex justify-center space-x-20">
+   <nav class="mb-[7em] w-full mt-10">
+      <ul class="flex flex-col items-center md:flex-row md:justify-center md:space-x-10">
          <li><a class="header-link underline underline-offset-10" href="#">Home</a></li>
          <li><a class="header-link" href="#">Free courses</a></li>
          <li><a class="header-link" href="#">Meet the Founder</a></li>
@@ -17,38 +17,38 @@
       </ul>
    </nav>
 
-   <section class="flex justify-center space-x-10 mb-[7em]">
-      <img class="w-md" src="/src/cassidy-towers-3_XEOGZ_4b4-unsplash.jpg" alt="image">
+   <section class="flex flex-col items-center  md:flex-row md:justify-center md:space-x-10 mb-[7em] ">
+      <img class="md:w-md" src="/src/cassidy-towers-3_XEOGZ_4b4-unsplash.jpg" alt="image">
       <div class="flex flex-col justify-center">
-         <p class="text-6xl">The</p>
-         <p class="text-6xl text-green-600">Photography</p>
+         <p class="text-5xl">The</p>
+         <p class="text-5xl text-green-600">Photography</p>
       </div>
+   </section> 
+
+   <section class="flex flex-col items-center md:flex-row md:justify-center space-x-10 mb-[7em]">
+      <div class="flex flex-col justify-center">
+
+         <p class="text-3xl md:text-2xl"><span class="text-3xl md:text-2xl text-green-600">Photography</span> is the stroy</p>
+         <p class="text-3xl md:text-2xl">I fail to put into words</p>
+      </div>
+      <img class=" md:w-sm" src="src/ira-ostafiichuk-U6A27TdwQxg-unsplash.jpg" alt="">
    </section>
 
-   <section class="flex justify-center space-x-10 mb-[7em]">
-      <div class="flex flex-col justify-center relative">
-         <p class="text-6xl absolute -left-6 top-54">''</p>
-         <p class="text-2xl"><span class="text-2xl text-green-600">Photography</span> is the stroy</p>
-         <p class="text-2xl">I fail to put into words</p>
-      </div>
-      <img class="w-sm" src="src/ira-ostafiichuk-U6A27TdwQxg-unsplash.jpg" alt="">
-   </section>
-
-   <section class="flex justify-around items-center h-[520px]">
-      <p class="w-md text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum adipisci quaerat quos magni laboriosam quasi sequi aliquam natus perspiciatis esse similique, tempora id cumque reiciendis pariatur facilis blanditiis, nesciunt accusantium!</p>
+   <section class="flex flex-col items-center space-y-15 mb-15 md:flex-row md:justify-around md:items-center h-auto md:min-h-[520px]">
+      <p class="flex-auto md:w-md md:text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum adipisci quaerat quos magni laboriosam quasi sequi aliquam natus perspiciatis esse similique, tempora id cumque reiciendis pariatur facilis blanditiis, nesciunt accusantium!</p>
       <div class="flex flex-col">
-         <p class="text-6xl">What is</p>
-         <p class="text-6xl text-green-600">Photography?</p>
+         <p class="text-4xl md:text-6xl">What is</p>
+         <p class="text-4xl md:text-6xl text-green-600">Photography?</p>
       </div>
    </section>
 
-   <section class="flex justify-around items-center h-[520px] mb-34">
-      <div class="w-md relative">
-         <div class="bg-green-200 w-xs h-[200px] absolute -top-20 -left-20"></div>
-         <img class="w-xs z-10 absolute" src="src/karl-fredrickson-DsAjH9B24G8-unsplash.jpg" alt="">
+   <section class="flex flex-col md:flex-row md:justify-around items-center h-auto md:min-h-[520px] mb-15 md:mb-34">
+      <div class="md:w-md md:relative">
+         <div class="md:bg-green-200 md:w-xs md:h-[200px] md:absolute md:-top-20 md:-left-20 "></div>
+         <img class="md:w-xs md:z-10 md:absolute" src="src/karl-fredrickson-DsAjH9B24G8-unsplash.jpg" alt="">
       </div>
-      <div class="w-md">
-         <p class="text-6xl mb-20 mt-14">About <span class="text-6xl text-green-600">Founder</span></p>
+      <div class="md:w-md">
+         <p class="text-4xl md:text-6xl mb-20 mt-14">About <span class="text-4xl md:text-6xl text-green-600">Founder</span></p>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, quisquam aliquid corporis minima adipisci qui officia necessitatibus quod corrupti accusamus, nisi, vitae ipsum. Molestiae nesciunt recusandae enim sit totam. Excepturi laudantium debitis a non quasi harum, dignissimos esse similique eaque?</p>
       </div>
    </section>
